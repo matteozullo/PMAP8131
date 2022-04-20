@@ -1,0 +1,377 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project II &#8212; PMAP 8131</title>
+    
+  <link href="_static/css/theme.css" rel="stylesheet">
+  <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.be7d3bbb2ef33a8344ce.js">
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">PMAP 8131</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the website" aria-label="Search the website" autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="outline.html">
+   Outline
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="notebooks.html">
+   Content with notebooks
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="markdown-notebooks.html">
+   Notebooks with MyST Markdown
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Theme by the <a href="https://ebp.jupyterbook.org">Executable Book Project</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/project-repl.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#checklist">
+   Checklist
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#structure">
+   Structure
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#introduction">
+     Introduction
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#methodology">
+     Methodology
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#results">
+     Results
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#fair-collaboration">
+   Fair Collaboration
+  </a>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Project II</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#checklist">
+   Checklist
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#structure">
+   Structure
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#introduction">
+     Introduction
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#methodology">
+     Methodology
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#results">
+     Results
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#fair-collaboration">
+   Fair Collaboration
+  </a>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            
+              <div>
+                
+  <div class="tex2jax_ignore mathjax_ignore section" id="project-ii">
+<h1>Project II<a class="headerlink" href="#project-ii" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="checklist">
+<h2>Checklist<a class="headerlink" href="#checklist" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>You will be turning the items below. You probably want to use Microsoft Word for your write-up but really any text editor (e.g., Pages) and markup language (e.g., LateX) is fair game. Adherence to the <a class="reference external" href="https://apastyle.apa.org">APA style guidelines</a> is encouraged.</p></li>
+<li><p><strong>Introduction</strong> [25%]: research question(s), statistical technique(s).</p></li>
+<li><p><strong>Methodology</strong> [25%]: model, variables, data.</p></li>
+<li><p><strong>Results</strong> [50%]: key table or figure.</p></li>
+</ul>
+</div>
+<div class="section" id="structure">
+<h2>Structure<a class="headerlink" href="#structure" title="Permalink to this headline">¶</a></h2>
+<p>In this assignment, you will be replicating the findings of an empirical research article in the social sciences. Any social science research article (psychology, sociology, economics, public policy, etc.) published in a peer-reviewed journal is fair game. One requirement is that the article implements one of the statistical methods covered in the class, econometric or machine learning technique (e.g., difference-in-differences, synthetic control, neural networks, etc.). Any other advanced methodologies which have not been presented in class are also fair game. However, you might not choose articles that implement basic statistical techniques (e.g., descriptive statistics, linear regression, logistic regression, etc.). The other requirements are quite loose; however, you ideally want to find an article that:</p>
+<ul class="simple">
+<li><p>Has been published in the last two decades;</p></li>
+<li><p>Implements a code routine in one or more programming languages (Python, R, STATA, etc.).</p></li>
+<li><p>Includes a data submission. Some papers would use publicly available data sources which might be downloaded for free from the web. If this is the case of your article, please make sure to download the data and include it in your submission.</p></li>
+</ul>
+<p>Replicating a paper is running the analysis from beginning to end using the code and data provided in the authors’ submission. You will need to:</p>
+<ul class="simple">
+<li><p>Read the paper and understand the research question it addresses;</p></li>
+<li><p>Download all the replication materials;</p></li>
+<li><p>Install the relevant software and packages on your machine. Note that version requirements are often an issue for reproducibility. At times, authors reference the package versions used for analysis (e.g., R version 3.6). Version compatibility is one of the reasons why you want to start early. Trust me, running the code without errors means you are at least halfway through completing the assignment.</p></li>
+<li><p>Rerun the code line by line.</p></li>
+<li><p>Save all the outputs from analysis.</p></li>
+</ul>
+<p>To complete the assignment, you will need to turn in a replication memo, which includes the parts below.</p>
+<div class="section" id="introduction">
+<h3>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h3>
+<p>Here, you introduce the:</p>
+<ul class="simple">
+<li><p><em>(Main) research question</em>. The causal relationship that the paper is looking at. You typically want to express the research question in terms of dependent and independent variables.</p></li>
+<li><p><em>Statistical or machine learning technique</em>. Name the technique used for identification of the causal effect. Include information about the identification conditions. For example, regression discontinuity requires that the running variable is discontinuous around the cutoff. The authors would need to have said something about it. Note any other details that are relevant for understanding.</p></li>
+</ul>
+</div>
+<div class="section" id="methodology">
+<h3>Methodology<a class="headerlink" href="#methodology" title="Permalink to this headline">¶</a></h3>
+<p>Here, you discuss the:</p>
+<ul class="simple">
+<li><p><em>Model</em>. Rewrite the empirical model – yes, this means you will need to rewrite the regression equation or the other math used in the original paper – walking the reader through the different variables and parameters. Discuss the functional form, the structure of the error term, the coding of the variables. Make sure to distinguish between dependent variable, control variables, and key explanatory variable(s).</p></li>
+<li><p><em>Data</em>. Generate a toy example of the data with all the variables and their coding. This can be done via screenshot (not recommended), in Excel (recommended), or using the other software of your choosing (also recommended). If the script recodes, reshapes, and reformats the dataset included in the submission – this is typically the content of the first few lines of a script – please report the dataset which results from manipulation, not the original dataset. While I don’t want you to understand and comment a code script line by line; this assignment tests your high-level understanding of a script. Ability to locate variable manipulations is integral to this skillset.</p></li>
+</ul>
+</div>
+<div class="section" id="results">
+<h3>Results<a class="headerlink" href="#results" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><em>Key table or figure</em>. Reproduce the most important table or figure in the paper extracting and commenting the corresponding code – yes, you will need to copy and paste the code the paper from the script into your replication memo. For example, a paper implementing the synthetic control method in STATA will likely be using the <em>synth</em> command followed by the relevant call. Make sure to report and comment the code line by line providing contextual information. This assignment does not ask you to redo and comment the whole code analysis; however, it tests your ability to locate the most important command from a script. For most empirical papers, you will be extracting one regression table.
+Please do not include or screenshot a table or figure from the online version of the paper. You need to include the table and figure that your replication of the paper generates on your machine.</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="fair-collaboration">
+<h2>Fair Collaboration<a class="headerlink" href="#fair-collaboration" title="Permalink to this headline">¶</a></h2>
+<p>Teams will complement each submission with a note breaking down individual contributions to the project (e.g., student A did X; student B did Y, etc.). The note should also state that “each team member has contributed fairly to the group project” and must go in a footnote or in a <em>Collaboration</em> section at the end of the file which will not count towards the word limit. If contribution has not been fair or balanced, this must be written in place of the fair collaboration clause.
+It is expected that some students will go the extra mile because of their interest in the project, and that some students who are better at writing will be contributing more to the write-up and less to the model. This is totally fine. What matters is that everyone brings her fair contribution to the project, where the threshold for “fair” has to be aggreed upon by the team members. If collaboration falls apart or some team members are pushing the “fair” hreshold too hard, teams should reach to the instructor as soon as possible.</p>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            
+                <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+</div>
+            
+        </div>
+    </div>
+    <footer class="footer">
+  <p>
+    
+      By Matteo Zullo<br/>
+    
+        &copy; Copyright 2021.<br/>
+  </p>
+</footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+
+  </body>
+</html>
