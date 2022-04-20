@@ -1,0 +1,356 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project II &#8212; PMAP 8131</title>
+    
+  <link href="_static/css/theme.css" rel="stylesheet">
+  <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.be7d3bbb2ef33a8344ce.js">
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">PMAP 8131</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the website" aria-label="Search the website" autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="outline.html">
+   Outline
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="notebooks.html">
+   Content with notebooks
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="markdown-notebooks.html">
+   Notebooks with MyST Markdown
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Theme by the <a href="https://ebp.jupyterbook.org">Executable Book Project</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/project-surv.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#checklist">
+   Checklist
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#structure">
+   Structure
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#survey-instrument">
+     Survey Instrument
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#research-plan">
+     Research plan
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#fair-collaboration">
+   Fair Collaboration
+  </a>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Project II</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#checklist">
+   Checklist
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#structure">
+   Structure
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#survey-instrument">
+     Survey Instrument
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#research-plan">
+     Research plan
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#fair-collaboration">
+   Fair Collaboration
+  </a>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            
+              <div>
+                
+  <p><a class="reference external" href="http://www.csun.edu/~hbsoc126/soc4/Chapter%2010%20Writing%20Assignment.pdf">http://www.csun.edu/~hbsoc126/soc4/Chapter 10 Writing Assignment.pdf</a></p>
+<div class="tex2jax_ignore mathjax_ignore section" id="project-ii">
+<h1>Project II<a class="headerlink" href="#project-ii" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="checklist">
+<h2>Checklist<a class="headerlink" href="#checklist" title="Permalink to this headline">¶</a></h2>
+<p>You will be turning the items below. You probably want to use Microsoft Word for your write-up but really any text editor (e.g., Pages) and markup language (e.g., LateX) is fair game. Adherence to the <a class="reference external" href="https://apastyle.apa.org">APA style guidelines</a> is encouraged.</p>
+<ul class="simple">
+<li><p><strong>Survey instrument</strong> [25%]. It has two parts.</p>
+<ul>
+<li><p><em>Latent construct</em>: questions scoring respondents on the latent construct of choosing.</p></li>
+<li><p><em>Supplementary information</em>: questions collecting information that goes into your empirical model.</p></li>
+</ul>
+</li>
+<li><p><strong>Research plan</strong> [75%]. It covers the sections below.</p>
+<ul>
+<li><p>[~25%] <em>Background</em>: goal of research, introduction of latent construct, summary of literature.</p></li>
+<li><p>[~25%] <em>Validity</em>: survey description, discussion of validity (internal consistency, test-retest reliability, face validity, content validity, convergent validity, discriminant validity).</p></li>
+<li><p>[~25%] <em>Methodology</em>: null hypothesis, empirical model, internal and external validity, power analysis.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="structure">
+<h2>Structure<a class="headerlink" href="#structure" title="Permalink to this headline">¶</a></h2>
+<p>In this assignment, you will design a survey instrument revealing a latent construct in the population of interest. The construct might be a behavioral (e.g., risk aversion), psychological (e.g., agreebleness), attitudinal (e.g., numeracy), or any other feature of your choosing. You will be then using the latent construct as either a dependent or independent variable of analysis which uses the other information collected in teh survey instrument.</p>
+<div class="section" id="survey-instrument">
+<h3>Survey Instrument<a class="headerlink" href="#survey-instrument" title="Permalink to this headline">¶</a></h3>
+<p>The first item in your checklist is the survey instrument. Some considerations that go into grading: are you collecting all the necessary data?
+Are you avoiding collecting unnecessary data? Do the questions avoid framing effects? Are the questions clear and easy to understand?
+Be concise, but make sure to comprehensively cover the aspects of your construct. If you believe that risk aversion breaks out in risk-tolerance and risk-seeking, you will need to cover these two in your questionnaire. To be honest, I have no reason to believe that risk aversion breaks out in said manner, but in your submission you will need to provide reasons and supporting literature backing your choice of questions. This discussion is hosted in the <em>Background</em> section of your <strong>Research plan</strong>.
+The remainder of the questionnaire takes on demographics (e.g., sex, age, etc.), socioeconomics (e.g., income, wealth, etc.), educational features (e.g., highest degree attained, graduation major, etc.), and the other individual characteristics that go into your empirical model.
+You might use your latent construct in one or two ways: as the dependent variable of analysis, the one which you try to explain based on the covariates, or as an independent variable, one which you use to infer the behavior of your respondents. Going back to the risk aversion example, one might use background information to predict differences in risk aversion (e.g., individuals brought up in single-person households to be more risk-averse), or infer policy preferences based on risk aversion (e.g., more risk averse individuals to have more progressive policy preferences). One thing you will need to include is the coding of variables. If you collect an ethnicity variable, describe how the variable is operationalized. If it is categorical, state it and include the categories (e.g., white, black, etc.)
+The two parts of the survey, which shall be administered as one survey, are issued to the other participants in the class using Google Forms. Their scores will allow you to calculate the Cronbach’s alpha for internal consistency. You might download the questionnaire in Excel format and turn it in as your submission. Importantly, do not include survey responses – only the structure of the survey is of interest for grading – and make sure that respondents stay anonymous before, during, and after completion of the survey.</p>
+</div>
+<div class="section" id="research-plan">
+<h3>Research plan<a class="headerlink" href="#research-plan" title="Permalink to this headline">¶</a></h3>
+<p>The <strong>Research plan</strong> plan starts with the goal of the research, moves on to introduce the latent construct incorporating relevant literature. These elements should be all part of the <em>Background</em> section. The <em>Validity</em> section discusses the different aspects of validity introduced in class. Clearly, you will need to wait until your responses are in before you can calculate Cronbach’s alpha, however you should be able to write up the other types of validity without need to wait for survey responses. Clearly, your content validity reflects in your choice of questions and is defined before the survey goes out to the respondents.
+The last component of your <strong>Research plan</strong> is the <em>Methodology</em>. This section articulates your null hypothesis drawn from prior literature or own thinking. Also, it outlines the empirical model that tests your null hypothesis. You might plan to test sex-based differences in risk-aversion via difference-of-means or regression, or to validate the predictive power of risk aversion with regards to major choices. Please lay out your model clearly with the use of formulas (e.g., regression equation). State the conditions under which your null hypothesis would test false in a clear manner.
+Last, address power. The survey instrument that goes to class members will likely be underpowered, but this is not what this subsection is about. Define the population that you would ideally want to survey to conduct your research (e.g., 1,000 undergraduate students) and make sure that your experiment has enough power to test your null hypothesis. Clearly, a sample of 100 students would not be sufficient to test differences in risk aversion between men and women with different levels of education and parental background. You would have way too many degrees of freedom and a way too small sample size. Describe your choice of control covariates and stratification. This is preferably done using power analysis formulas, but can be done informally. In essence, you have to argue that your research plan is feasible.</p>
+</div>
+</div>
+<div class="section" id="fair-collaboration">
+<h2>Fair Collaboration<a class="headerlink" href="#fair-collaboration" title="Permalink to this headline">¶</a></h2>
+<p>Teams will complement each submission with a note breaking down individual contributions to the project (e.g., student A did X; student B did Y, etc.). The note should also state that “each team member has contributed fairly to the group project” and must go in a footnote or in a <em>Collaboration</em> section at the end of the file which will not count towards the word limit. If contribution has not been fair or balanced, this must be written in place of the fair collaboration clause.
+It is expected that some students will go the extra mile because of their interest in the project, and that some students who are better at writing will be contributing more to the write-up and less to the model. This is totally fine. What matters is that everyone brings her fair contribution to the project, where the threshold for “fair” has to be aggreed upon by the team members. If collaboration falls apart or some team members are pushing the “fair” hreshold too hard, teams should reach to the instructor as soon as possible.</p>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            
+                <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+</div>
+            
+        </div>
+    </div>
+    <footer class="footer">
+  <p>
+    
+      By Matteo Zullo<br/>
+    
+        &copy; Copyright 2021.<br/>
+  </p>
+</footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+
+  </body>
+</html>
