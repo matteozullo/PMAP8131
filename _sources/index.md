@@ -40,6 +40,8 @@ The mandatory and optional readings from the textbooks and other sources are rep
 
 The student is graded out of 100 points. 5 bonus bonus points are available through in-class exercises. Letter grades are assigned as per the table below.
 
+| A | B | C | D/F |
+| -----  | ----- | ----- | ----- |
 | A+ (98-100)  | B+ (88-89.9) | C+ (78-78.9) | D (60-69.9) |
 | A (93-97.9)  | B (83-87.9)  | C (73-77.9)  | F (0-59.9)  |
 | A- (90-92.9) | B- (80.82.9) | C- (70-72.9) |             |               |
