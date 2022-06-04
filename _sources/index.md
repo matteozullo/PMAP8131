@@ -38,7 +38,7 @@ The mandatory and optional readings from the textbooks and other sources are rep
 
 ## Grading
 
-The student is graded out of 100 points with 5 bonus bonus points available through in-class exercises. Letter grades are assigned as per the table below.
+Letter grades are assigned out of 100 points as per the table below:
 
 | A | B | C | D/F |
 | -----  | ----- | ----- | ----- |
