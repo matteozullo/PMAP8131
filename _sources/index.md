@@ -32,13 +32,13 @@ The textbooks used in the class are:
 - Cunningham, S. (2020). *Causal Inference: The Mixtape*. https://mixtape.scunning.com (freely available online)
 - Wooldridge, J. M. (2020). *Introductory Econometrics: A Modern Approach* (7th ed.). Cengage learning.
 
-The mandatory and optional readings from the textbooks and other sources are reported in the [Outline](./outline.md). Students **must read the assigned chapters and articles before class**. The Cunningham textbook is available online for free and the other mandatory readings are also available free of charge through the school's online library [Outline](https://www.galileo.usg.edu).
+The mandatory and optional readings from the textbooks and other sources are reported in the [Outline](./outline.md). Students **must read the assigned chapters and articles before class**. The Cunningham textbook is available online for free and the other mandatory readings are also available free of charge through the school's [online library](https://www.galileo.usg.edu).
 
 ---
 
 ## Grading
 
-The student is graded out of 100 points. 5 bonus bonus points are available through in-class exercises. Letter grades are assigned as per the table below.
+The student is graded out of 100 points with 5 bonus bonus points available through in-class exercises. Letter grades are assigned as per the table below.
 
 | A | B | C | D/F |
 | -----  | ----- | ----- | ----- |
@@ -55,11 +55,13 @@ Total grade is broken down as follows:
 
 
 ### Participation
-At the end of each module, students will post a brief comment note of 200 words or less around the content discussed in the module. The comment note should reference one or more of the assigned readings discussing the trickiest bits the student has encountered.
-Students are welcome to write up their comment notes as an open-ended question to the instructor or classmates. For example, it might not be clear why regression coefficients capture partial correlation, or what partial correlation actually means. To obtain full credits, students will need to reference the readings appropriately. What matters is that the question – or note, or comment – is punchy, well-articulated, and solicits an answer from the instructor or classmates. Vague wording is yet another reason to obtain partial credits.
+Each week, students will post a brief comment note of 200 words or less around the content discussed the week prior. The comment note should reference one or more of the assigned readings discussing one tricky bit the student has encountered. **The deadline for submission of the participation notes is on Wednesdays 4 PM before class** (the first note is due Wednesday, June 15th).
+Students are welcome to write up their comment notes as an open-ended question to the instructor or classmates. For example, it might not be clear why regression coefficients capture partial correlation, or what partial correlation actually means. Or, students might want to pick apart one of the exercises in the quizzes.  
+To obtain full credits, students must reference the readings appropriately. What matters is that the note is punchy, well-articulated, and framed as a question or a technical note and not as an opinion. Vague wording is yet another reason to obtain partial credits.
 
 ### Quizzes
-Quizzes will be issued at the end of each module and must be completed individually through iCollege within one week (solutions will be posted in the [Outline](/outline.md) section of the website). Quizzes are open-book, therefore consultation of web sources and class notes is allowed. They contain 10 questions each to be completed within 45 minutes. Please note that this is an extremely generous time allocation as students are expected to complete quizzes in abut half-an-hour. At the end of the course, quiz scores will be totaled up, aggregated, and curved if the average class performance departs too much from the standard grade range.
+Quizzes will be issued at the end of each module and must be completed individually through iCollege usually within one week (solutions will be posted in the [Outline](/outline.md) section of the website). It is recommended to write up comment notes as a follow-up on one of the exercises in the quizzes or readings.  
+Quizzes are open-book and **consultation of web sources and class notes is allowed**. They contain 10 questions each to be completed within an allotted timeframe. A typical quiz has a timer set at about 45 minutes, which might be extended when quizzes require more involved calculations. Note that this is a very generous time allocation. At the end of the course, quiz scores will be totaled up, aggregated, and curved if the average class performance departs too much from the standard grade range.
 
 ### Mini-Projects
 Three mini-projects will be carried out in groups of 3 to 4. The mini-projects are described at length in their dedicated pages on the class website and submission dates are available in the [Outline](/outline.md). Each group member will be awarded the same grade; however, students who wish to complain about the collaboration in their group are encouraged to voice their concerns as early as possible.
@@ -73,7 +75,7 @@ There will be opportunities for bonus points during the class. Because the insti
 
 ### Late Policy
 
-Late work is not in the spirit of the class. A **10\% grade deduction** applies to quiz and project submission coming in within 24 hours of the deadline, and a **25\% grade deduction** applies to works submitted after the 24-hour window. Note that the instructor might change the due dates if groups agree there is not enough time to complete the assigned work.
+Late work is not in the spirit of the class. A **10\% grade deduction** applies to quiz and project submission coming in within 24 hours of the deadline, and a **25\% grade deduction** applies to works submitted after the 24-hour window. Note that the instructor might change the due dates if technical issues have equally hampered all groups.
 
 ### Issues
 Broader issues which affect the student performance throughout the class – including and not limited to disability, childcare, and mental health – must be notified to the instructor **at the beginning of the semester**. Late notification of longstanding issues might not be a reason to waive any class requirements.
