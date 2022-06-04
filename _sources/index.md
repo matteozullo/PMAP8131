@@ -50,8 +50,7 @@ Total grade is broken down as follows:
 
 - Participation [15\%]
 - Individual quizzes [40\%]
-- Group mini-projects [40\%]
-- Bonus [5\%]
+- Group mini-projects [45\%]
 
 
 ### Participation
