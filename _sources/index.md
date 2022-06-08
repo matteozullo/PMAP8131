@@ -7,7 +7,7 @@ This course teaches the theories and methods of applied social science research.
 - **Course Dates:** June 6th – July 30th, 2022
 - **Class Times:** Mon & Wed at 4:45–7:15 PM
 - **Location:** [Classroom South 100, 95 Decatur St SE, Atlanta, GA 30303](https://www.google.com/maps/place/Classroom+South/@33.7527055,-84.3896088,17z/data=!3m1!4b1!4m5!3m4!1s0x88f503fb9fa920c9:0x3f1f89ef98db0546!8m2!3d33.7527011!4d-84.3874148)
-
+help@gsu.edu
 ---
 
 ## Instructor
